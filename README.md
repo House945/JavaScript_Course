@@ -1,2 +1,2 @@
 # JavaScript_Course
-// lazy day 2 day (DAY 3)
+<!--lazy day 2 day (DAY 3)-->
