@@ -10,7 +10,7 @@ line 10
 etc.
 
 var kurs = 10;
-
+// next lesson
 document.write(kurs);
 */
 /*next lesson
