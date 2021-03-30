@@ -10,13 +10,14 @@ line 10
 etc.
 
 var kurs = 10;
-// next lesson
+
 document.write(kurs);
 */
-// next lesson
-var xx = "Kurs";
-var yy = "JavaScript";
-document.write(xx + " " + yy);
+/*next lesson
+var x = "Kurs";
+var y = "JavaScript";
+document.write(x + " " + y);
+*/
 
 /*var x = 4;
 x -= 5;
@@ -28,7 +29,7 @@ var cena_k = cena * 0.8;
 document.write(cena_k);
 */
 
-
+/*
 var y = 11;
 if(y == 1)
     document.write("x ma wartosc 1 <br />");
@@ -86,3 +87,74 @@ if((c==1) && !(d==6) && (e==3))
     document.write("TRUE<br />");
 else
     document.write("FALSE<br />");
+
+// next lesson
+let f = 7;
+let g = 4;
+let wynik = (f > g) ? "True" : "False";
+document.write(wynik + " // wyrazenia warunkowe<br /><br />");
+
+// next lesson: Tablice - wprowadzenie
+let liczby = new Array();
+liczby[0] = 1000;
+liczby[1] = 2000;
+liczby[2] = 3000;
+document.write(liczby[2] + "// Tablice - wprowadzenie<br /><br />");
+
+// next lesson: inicjalizacja tablic
+let liczby2 = new Array(1000, 2000, 3000, 4000);
+document.write(liczby2[2] + "// inicjalizacja tablic<br /><br />");
+
+let liczby3 = [10, 20, 30, 40, 50];
+document.write(liczby3[4] + "// inicjalizacja tablic<br /><br />");
+
+let liczby4 = ["kurs excel", "kurs php"];
+document.write(liczby4[1] + "// inicjalizacja tablic<br /><br />");
+
+// next lesson: FOR loop
+for( let i = 20; i >= 10; i--)
+{
+    document.write(i+"<br />");
+}
+// next lesson: matrix & loop
+let liczby5 = new Array(100 ,200, 300, 400, 500, 600, 700);
+//document.write(liczby5[0]);
+for(let j=0; j < liczby5.length; j++)
+{
+    document.write(liczby5[j]+"<br />");
+}
+
+let liczby6 = new Array();
+for (let k = 0; k <12; k++)
+{
+    liczby6[k] = k * 2;
+    document.write(liczby6[k]+"<br />");
+}
+*/
+// next lesson: WHILE loop + DO WHILE loop
+
+let h = 30;
+while (h >= 20)
+{
+    document.write(h+"<br/>");
+    h--;
+}
+/*
+while(warunek)
+{
+    instrukcje
+}
+
+do
+{
+    instrukcje
+}
+while(warunek)
+*/
+let l = 15;
+do
+{
+    document.write(l+"<br/>");
+    l++;
+}
+while(l<=30);
