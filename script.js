@@ -13,11 +13,10 @@ var kurs = 10;
 // next lesson
 document.write(kurs);
 */
-/*next lesson
-var x = "Kurs";
-var y = "JavaScript";
-document.write(x + " " + y);
-*/
+// next lesson
+var xx = "Kurs";
+var yy = "JavaScript";
+document.write(xx + " " + yy);
 
 /*var x = 4;
 x -= 5;
