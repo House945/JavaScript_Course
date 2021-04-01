@@ -18,7 +18,7 @@ var x = "Kurs";
 var y = "JavaScript";
 document.write(x + " " + y);
 */
-// assdsdfsdfs
+// edit #2
 
 /*var x = 4;
 x -= 5;
