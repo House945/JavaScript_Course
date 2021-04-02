@@ -18,7 +18,6 @@ var x = "Kurs";
 var y = "JavaScript";
 document.write(x + " " + y);
 */
-// edit #2
 
 /*var x = 4;
 x -= 5;
@@ -133,14 +132,14 @@ for (let k = 0; k <12; k++)
 }
 */
 // next lesson: WHILE loop + DO WHILE loop
-
+/*
 let h = 30;
 while (h >= 20)
 {
     document.write(h+"<br/>");
     h--;
 }
-/*
+
 while(warunek)
 {
     instrukcje
@@ -151,11 +150,32 @@ do
     instrukcje
 }
 while(warunek)
-*/
+
 let l = 15;
 do
 {
-    document.write(l+"<br/>");
+    document.write(l+"<br/><br/>");
     l++;
 }
 while(l<=30);
+
+// zagniezdzanie pętli
+
+for (let m =1; m <= 4; m++)
+{
+    for(let n =1; n<=4; n++)
+    {
+        document.write(n+"<br/>")
+    }
+}
+*/
+// next lesson: break & continue
+for (let i =1; i <=100; i++)
+{
+    
+    if((i % 2 != 0))
+    {
+        continue;
+    }
+    document.write(i+"<br/>");
+}
