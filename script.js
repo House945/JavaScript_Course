@@ -170,6 +170,7 @@ for (let m =1; m <= 4; m++)
 }
 */
 // next lesson: break & continue
+/*
 for (let i =1; i <=100; i++)
 {
     
@@ -179,3 +180,43 @@ for (let i =1; i <=100; i++)
     }
     document.write(i+"<br/>");
 }
+*/
+// next lesson: wprowadzenie do funkcji
+function pokazNazweKursu()
+{
+    document.write("Kurs JavaScript"+"<br/>");
+}
+pokazNazweKursu();
+
+function pokazInfo()
+{
+    document.write("Kurs JavaScript"+"<br/>");
+    document.write(42.00+"PLN"+"<br/>");
+    document.write("Biurowe"+"<br/>");
+}
+pokazInfo();
+
+document.write("---------------------------------------------<br/>");
+function pokazTytul(tytul)
+{
+    document.write(tytul+"<br/>");
+}
+pokazTytul("Kurs Word");
+pokazTytul("Kurs PHP");
+pokazTytul("Kurs Japierdole alez dzisiaj dlugi dzien");
+
+function pokazInfo2(tytul, cena, kategoria)
+{
+    document.write(tytul+"<br/>");
+    document.write(cena+"PLN"+"<br/>");
+    document.write(kategoria+"<br/>");
+}
+pokazInfo2("Excel", 1500, "zajebiste");
+document.write("---------------------------------------------<br/>");
+
+function suma(x,y,z)
+{
+    document.write(x + y + z);
+}
+suma(1500,100,900);
+document.write("---------------------------------------------<br/>");
