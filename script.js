@@ -45,7 +45,8 @@ else
     document.write("y ma wartosc inna niz 1,2,3 <br />");
     //document.write("<br />");
 
-// next lesson
+// next lesson 
+// next edit: tuesday
 
 var x = 20;
 switch(x)
