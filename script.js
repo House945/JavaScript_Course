@@ -182,6 +182,7 @@ for (let i =1; i <=100; i++)
 }
 */
 // next lesson: wprowadzenie do funkcji
+/*
 function pokazNazweKursu()
 {
     document.write("Kurs JavaScript"+"<br/>");
@@ -237,10 +238,26 @@ document.write("---------------------------------------------<br/>");
 }
 document.write(sumuj(4, 15));
 document.write("---------------------------------------------<br/>");
-*/
+
 
 function porownaj(x,y)
 {
     return x==y;
 }
-document.write(porownaj(6,6));
+document.write(porownaj(6,6)); */
+
+// next lesson: funkcja wywołująca funkcje
+function pokazTytul()
+{
+    document.write("Kurs Excel 2010"+"<br/>");
+}
+function pokazCene()
+{
+    document.write(42.00+"zl"+"<br/>");
+}
+function pokazInfo()
+{
+    pokazTytul();
+    pokazCene();
+}
+pokazInfo();
