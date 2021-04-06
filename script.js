@@ -244,7 +244,7 @@ function porownaj(x,y)
 {
     return x==y;
 }
-document.write(porownaj(6,6)); */
+document.write(porownaj(6,6)); 
 
 // next lesson: funkcja wywołująca funkcje
 function pokazTytul()
@@ -265,17 +265,42 @@ pokazInfo();
 
 // next lesson: zakres zmiennych
 //let x = 1;
-/*function pokazX(x)
+function pokazX(x)
 {
     
     document.write(x);
 }
 pokazX(10);
 document.write(x);
-*/
+
 function pokazX()
 {
     let x = 1;
     return x;
 }
 document.write(pokazX());
+*/
+// next chapter: obiekty
+//next lesson: wstęp
+/*class kursy {
+    constructor(tytul) {
+        this.tytul = tytul;
+    }
+}
+var kursExcel = new kursy("Kurs Excel 2010");
+document.write(kursExcel.tytul);
+var kursWord = new kursy("Kurs Word 2010");
+document.write(kursWord.tytul);*/
+
+class kursy {
+    constructor(tytul, cena, kategoria) {
+        this.tytul = tytul;
+        this.cena = cena;
+        this.kategoria = kategoria;
+    }
+}
+var kursAccess = new kursy("Access", 49.99, "Biurowe");
+var kursJoomla = new kursy("Joomla",38.88,"Internet");
+document.write(kursAccess.tytul+"<br/>");
+document.write(kursAccess.cena+"<br/>");
+document.write(kursAccess.kategoria+"<br/>");
