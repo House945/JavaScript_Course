@@ -254,6 +254,7 @@ function pokazTytul()
 function pokazCene()
 {
     document.write(42.00+"zl"+"<br/>");
+    document.write("---------------------------------------------<br/>");
 }
 function pokazInfo()
 {
@@ -261,3 +262,20 @@ function pokazInfo()
     pokazCene();
 }
 pokazInfo();
+
+// next lesson: zakres zmiennych
+//let x = 1;
+/*function pokazX(x)
+{
+    
+    document.write(x);
+}
+pokazX(10);
+document.write(x);
+*/
+function pokazX()
+{
+    let x = 1;
+    return x;
+}
+document.write(pokazX());
