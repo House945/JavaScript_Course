@@ -45,8 +45,7 @@ else
     document.write("y ma wartosc inna niz 1,2,3 <br />");
     //document.write("<br />");
 
-// next lesson 
-// next edit: tuesday
+// next lesson
 
 var x = 20;
 switch(x)
@@ -221,3 +220,27 @@ function suma(x,y,z)
 }
 suma(1500,100,900);
 document.write("---------------------------------------------<br/>");
+
+//next lesson: funkcja zwracająca wartość
+
+function zwroc()
+{
+    document.write("Funkcja<br/>");
+    return 100;
+}
+document.write(zwroc());
+document.write("---------------------------------------------<br/>");
+
+/*function sumuj(x,y)
+{
+    return x+y;
+}
+document.write(sumuj(4, 15));
+document.write("---------------------------------------------<br/>");
+*/
+
+function porownaj(x,y)
+{
+    return x==y;
+}
+document.write(porownaj(6,6));
