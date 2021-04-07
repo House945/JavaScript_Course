@@ -363,6 +363,7 @@ let tytul = function()
 }
 tytul();
 */
+/*
 class kursy {
     constructor(tytul, cena, kategoria) {
         this.tytul = tytul;
@@ -376,4 +377,21 @@ class kursy {
 }
 let kursPHP = new kursy("kurs PHP ",38.88,"Internet");
 kursPHP.pokazTytul();
+*/
 // next lesson: klasy w JavaScript
+/*
+class Kursy {
+    constructor(tytul) {
+        this.tytul = tytul;
+    }
+}
+Kursy.prototype.pokazTytul = function()
+{
+    document.write(this.tytul+"<br/>");
+}
+let kursPHP = new Kursy("Kurs PHP");
+let kursCsharp = new Kursy("Kurs C#");
+kursPHP.pokazTytul();
+kursCsharp.pokazTytul();
+*/
+// next lesson: Stałe klasowe
