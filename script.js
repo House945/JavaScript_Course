@@ -291,7 +291,7 @@ var kursExcel = new kursy("Kurs Excel 2010");
 document.write(kursExcel.tytul);
 var kursWord = new kursy("Kurs Word 2010");
 document.write(kursWord.tytul);*/
-
+/*
 class kursy {
     constructor(tytul, cena, kategoria) {
         this.tytul = tytul;
@@ -303,4 +303,37 @@ var kursAccess = new kursy("Access", 49.99, "Biurowe");
 var kursJoomla = new kursy("Joomla",38.88,"Internet");
 document.write(kursAccess.tytul+"<br/>");
 document.write(kursAccess.cena+"<br/>");
-document.write(kursAccess.kategoria+"<br/>");
+document.write(kursAccess.kategoria+"<br/>"); */
+// next lesson: metody
+
+class kursy {
+    constructor(tytul, cena, kategoria) {
+        this.tytul = tytul;
+        this.cena = cena;
+        this.kategoria = kategoria;
+        this.pokazTytul = pokazTytul;
+        this.pokazCene = pokazCene;
+        this.pokazInfo = pokazInfo;
+    }
+}
+var kursJoomla = new kursy("Joomla",38.88,"Internet");
+var kursJava = new kursy("Java",99.88,"Nosz kurwa wiadomka, rajt?");
+function pokazTytul()
+{
+    document.write(this.tytul+"<br/>");
+}
+function pokazCene()
+{
+    document.write(this.cena+"<br/>");
+}
+//kursJoomla.pokazTytul();
+//kursJoomla.pokazCene();
+function pokazInfo()
+{
+    document.write(this.tytul+"<br/>");
+    document.write(this.cena+"<br/>");
+    document.write(this.kategoria+"<br/>");
+}
+kursJoomla.pokazInfo();
+kursJava.pokazInfo();
+// next lesson: funkcje anonimowe
