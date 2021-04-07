@@ -305,7 +305,7 @@ document.write(kursAccess.tytul+"<br/>");
 document.write(kursAccess.cena+"<br/>");
 document.write(kursAccess.kategoria+"<br/>"); */
 // next lesson: metody
-
+/*
 class kursy {
     constructor(tytul, cena, kategoria) {
         this.tytul = tytul;
@@ -336,4 +336,44 @@ function pokazInfo()
 }
 kursJoomla.pokazInfo();
 kursJava.pokazInfo();
+*/
 // next lesson: funkcje anonimowe
+/*
+class kursy {
+    constructor(tytul, cena, kategoria) {
+        this.tytul = tytul;
+        this.cena = cena;
+        this.kategoria = kategoria;
+        function pokazTytul()
+        {
+            document.write(this.tytul);
+        }
+        this.pokazTytul = pokazTytul;
+        //this.pokazCene = pokazCene;
+        //this.pokazInfo = pokazInfo;
+    }
+}
+
+let kursPHP = new kursy("kurs PHP ",38.88,"Internet");
+kursPHP.pokazTytul();
+
+let tytul = function()
+{
+    document.write("Kurs JavasScript");
+}
+tytul();
+*/
+class kursy {
+    constructor(tytul, cena, kategoria) {
+        this.tytul = tytul;
+        this.cena = cena;
+        this.kategoria = kategoria;
+        this.pokazTytul = function()
+        {
+            document.write(this.tytul);
+        }
+    }
+}
+let kursPHP = new kursy("kurs PHP ",38.88,"Internet");
+kursPHP.pokazTytul();
+// next lesson: klasy w JavaScript
