@@ -395,3 +395,29 @@ kursPHP.pokazTytul();
 kursCsharp.pokazTytul();
 */
 // next lesson: Stałe klasowe
+class Kursy {
+    constructor(tytul) {
+        this.tytul = tytul;
+    }
+}
+Kursy.prototype.pokazTytul = function()
+{
+    document.write(this.tytul+"<br/>");
+}
+Kursy.prototype.KATEGORIA = "Programowanie";
+Kursy.prototype.pokazKategorie = function()
+{
+    document.write(this.KATEGORIA+"<br/>");
+}
+
+let kursPHP = new Kursy("Kurs PHP");
+let kursCsharp = new Kursy("Kurs C#");
+let kursJava = new Kursy("Kurs Java");
+kursPHP.pokazTytul();
+kursPHP.pokazKategorie();
+kursCsharp.pokazTytul();
+kursCsharp.pokazKategorie();
+kursJava.pokazTytul();
+kursJava.pokazKategorie();
+
+// next lesson: OBIEKTY WBUDOWANE: Obiekt MATH
