@@ -46,7 +46,7 @@ else
     //document.write("<br />");
 
 // next lesson
-
+//edit
 var x = 20;
 switch(x)
 {
