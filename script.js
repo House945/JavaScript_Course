@@ -420,7 +420,7 @@ kursCsharp.pokazTytul();
 kursCsharp.pokazKategorie();
 kursJava.pokazTytul();
 kursJava.pokazKategorie();
-*/
+
 // next lesson: OBIEKTY WBUDOWANE: Obiekt MATH
 let x = 4.56;
 let y = 15;
@@ -440,4 +440,23 @@ let y = 15;
 let liczby1 = new Array(10,20,30,40);
 let liczby2 = new Array(50,60,70,80);
 var liczby3 = liczby1.concat(liczby2);
-document.write(liczby3);
+document.write(liczby3);*/
+
+// next lesson: OBIEKTY WBUDOWANE: Obiekt DATE - inichalizacja
+/*
+let data = new Date(86400000*15000+1000*60);
+document.write(data);
+*/
+// next lesson: OBIEKTY WBUDOWANE: Obiekt DATE - metody
+
+//ZEGAREK
+let data = new Date();
+document.write("Godzina: "+data.getHours()+"</br/>");
+document.write("Minuta: "+data.getMinutes()+"</br/>");
+document.write("Sekunda: "+data.getSeconds()+"</br/>");
+
+let data2 = new Date();
+document.write(data2.valueOf()+"<br/>");
+document.write(data2.toLocaleString()+"<br/>");
+data2.setFullYear(1994,3,15);
+document.write(data2.toLocaleString()+"<br/>");
