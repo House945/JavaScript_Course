@@ -424,4 +424,20 @@ kursJava.pokazKategorie();
 // next lesson: OBIEKTY WBUDOWANE: Obiekt MATH
 let x = 4.56;
 let y = 15;
-document.write(Math.random()*10);
+//document.write(Math.random()*10+"<br/>");
+// next lesson: Obiekt Array
+//let liczby = new Array(10, 20, 30, 40, 50);
+//liczby.push(60, 70, 80);
+//liczby.unshift(-20,-10,0);
+//document.write(liczby.slice(0,3));
+//document.write(liczby+"<br/>")
+//liczby.reverse();
+//document.write(liczby);
+//document.write(liczby.shift()+"<br/>");
+//document.write(liczby.shift()+"<br/>");
+//document.write(liczby.join("+"+"<br/>"));
+//document.write(liczby.length);
+let liczby1 = new Array(10,20,30,40);
+let liczby2 = new Array(50,60,70,80);
+var liczby3 = liczby1.concat(liczby2);
+document.write(liczby3);
