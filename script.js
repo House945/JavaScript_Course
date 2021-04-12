@@ -46,7 +46,7 @@ else
     //document.write("<br />");
 
 // next lesson
-//edit 2
+
 var x = 20;
 switch(x)
 {
@@ -395,6 +395,7 @@ kursPHP.pokazTytul();
 kursCsharp.pokazTytul();
 */
 // next lesson: Stałe klasowe
+/*
 class Kursy {
     constructor(tytul) {
         this.tytul = tytul;
@@ -419,5 +420,8 @@ kursCsharp.pokazTytul();
 kursCsharp.pokazKategorie();
 kursJava.pokazTytul();
 kursJava.pokazKategorie();
-
+*/
 // next lesson: OBIEKTY WBUDOWANE: Obiekt MATH
+let x = 4.56;
+let y = 15;
+document.write(Math.random()*10);
