@@ -462,6 +462,17 @@ data2.setFullYear(1994,3,15);
 document.write(data2.toLocaleString()+"<br/>");
 
 // next lesson: OBIEKTY WBUDOWANE: Obiekt STRING
-let tekst = new String("Kurs Access Podstawy");
+let tekst = new String("Kurs Access 2010 Podstawy");
 let tekst2 = tekst.split(" ", 1);
-document.write(tekst + "<br/>" + tekst2);
+document.write(tekst + "<br/>" + tekst2+"<br/>");
+// next lesson: OBIEKTY WBUDOWANE: Obiekt STRING - formatowanie
+document.write(tekst.bold().italics().fontcolor("green")+"<br/>");
+// next lesson: OBIEKTY WBUDOWANE: Wyrażenia regularne
+let szukaj = /^Kurs Ap/g;
+document.write(tekst.match(szukaj));
+/*
+i - ignoruje wielkosc liter
+g - globalne wyszukiwanie
+*/
+// next lesson: OBIEKTY WBUDOWANE: Wyrażenia regularne - rozwinięcie
+// next lesson: OBIEKTOWY MODEL DOKUMENTU: DOM - wprowadzenie
