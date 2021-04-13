@@ -460,3 +460,8 @@ document.write(data2.valueOf()+"<br/>");
 document.write(data2.toLocaleString()+"<br/>");
 data2.setFullYear(1994,3,15);
 document.write(data2.toLocaleString()+"<br/>");
+
+// next lesson: OBIEKTY WBUDOWANE: Obiekt STRING
+let tekst = new String("Kurs Access Podstawy");
+let tekst2 = tekst.split(" ", 1);
+document.write(tekst + "<br/>" + tekst2);
