@@ -3,3 +3,4 @@
 <!-- JavaScript Crash Course For Beginners: Traversy Media Channel (DAY 4)-->
 <!-- Czas na rozdział 11: 15.04.2021-->
 <!-- fuck mondays-->
+<!-- wooooolne-->
